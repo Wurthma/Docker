@@ -75,3 +75,9 @@ List downloaded images.
 Remove **ubuntu** image.
 
 -----------------------
+
+`docker port de4ea3b921d8`
+
+Check ports mapping of the container with id **de4ea3b921d8**.
+
+-----------------------
