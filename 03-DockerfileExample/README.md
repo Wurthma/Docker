@@ -21,3 +21,9 @@ For `ENTRYPOINT` and `RUN` you can pass commands in two ways:
 or...
 
 - ENTRYPOINT npm start
+
+## Push image to docker hub
+
+- `docker login`
+
+- `docker push wurthmann/node`

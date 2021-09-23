@@ -87,3 +87,15 @@ Check ports mapping of the container with id **de4ea3b921d8**.
 Show informations about container id **de4ea3b921d8**.
 
 -----------------------
+
+`docker login`
+
+Login to docker hub.
+
+-----------------------
+
+`docker push wurthmann/myImage`
+
+Push image to docker hub.
+
+-----------------------
