@@ -51,3 +51,27 @@ Stop the container with id **de4ea3b921d8**.
 Start the container with id **de4ea3b921d8** and attach it with the current command line.
 
 -----------------------
+
+`docker rm de4ea3b921d8`
+
+Remove the container with id **de4ea3b921d8**.
+
+-----------------------
+
+`docker container prune`
+
+Remove all stoped containers.
+
+-----------------------
+
+`docker images`
+
+List downloaded images.
+
+-----------------------
+
+`docker rmi ubuntu`
+
+Remove **ubuntu** image.
+
+-----------------------
