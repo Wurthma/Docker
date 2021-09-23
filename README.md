@@ -81,3 +81,9 @@ Remove **ubuntu** image.
 Check ports mapping of the container with id **de4ea3b921d8**.
 
 -----------------------
+
+`docker inspect de4ea3b921d8`
+
+Show informations about container id **de4ea3b921d8**.
+
+-----------------------
