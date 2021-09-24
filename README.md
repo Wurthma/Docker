@@ -99,3 +99,21 @@ Login to docker hub.
 Push image to docker hub.
 
 -----------------------
+
+`docker network create --driver bridge my-network`
+
+Create a network with name **my-network** to communicate containers.
+
+-----------------------
+
+`docker network ls`
+
+List docker networks.
+
+-----------------------
+
+`docker run --name my-container --network my-network ubuntu`
+
+Create a container in network **my-network**.
+
+-----------------------
