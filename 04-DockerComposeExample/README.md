@@ -8,7 +8,9 @@ This small project has an exemple like the drawing below:
 
 Build: `docker-compose build`
 
-Up: `docker-compose up`
+Up: `docker-compose up -d`
+
+You can use `docker-compose restart` to "down" container and "up" again.
 
 ## Testing application
 
