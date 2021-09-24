@@ -7,8 +7,8 @@ services:
       context: .
     image: wurthmann/nginx
     container_name: nginx
-    port:
-      - "80:80"
+    ports:
+      - "8090:80"
     networks:
       - production-network
     depends_on:
@@ -26,8 +26,8 @@ services:
       dockerfile: ./docker/alura-books.dockerfile
       context: .
     image: wurthmann/alura-books
-    container-name: alura-books1
-    port:
+    container_name: alura-books1
+    ports:
       - "3000"
     networks:
       - production-network
@@ -39,8 +39,8 @@ services:
       dockerfile: ./docker/alura-books.dockerfile
       context: .
     image: wurthmann/alura-books
-    container-name: alura-books2
-    port:
+    container_name: alura-books2
+    ports:
       - "3000"
     networks:
       - production-network
@@ -52,8 +52,8 @@ services:
       dockerfile: ./docker/alura-books.dockerfile
       context: .
     image: wurthmann/alura-books
-    container-name: alura-books3
-    port:
+    container_name: alura-books3
+    ports:
       - "3000"
     networks:
       - production-network
