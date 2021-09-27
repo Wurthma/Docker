@@ -6,7 +6,7 @@ To access the complete documentation access: https://docs.docker.com/engine/refe
 
 `docker run ubuntu`
 
-Execute the image 'ubuntu' if exists and create a new container. If the image does not exist docker will look for it in [Docker Hub](https://hub.docker.com/ "Docker Hub").
+Run the 'ubuntu' image if it exists and create a new container. If the image does not exist docker will look for it in [Docker Hub](https://hub.docker.com/ "Docker Hub").
 
 -----------------------
 
