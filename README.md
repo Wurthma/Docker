@@ -28,7 +28,7 @@ Execute the command `echo "Hello world"` in ubuntu docker image.
 
 -----------------------
 
-`docker -it ubuntu`
+`docker exec -it ubuntu`
 
 Link current command line to ubuntu container command line.
 
