@@ -117,3 +117,15 @@ List docker networks.
 Create a container in network **my-network**.
 
 -----------------------
+
+`docker rm -vf $(docker ps -aq)`
+
+To delete all containers including its volumes use.
+
+-----------------------
+
+`docker rmi -f $(docker images -aq)`
+
+Delete all images.
+
+-----------------------
