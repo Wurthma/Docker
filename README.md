@@ -18,7 +18,7 @@ Pull (download) 'hello-world' image from docker hub.
 
 `docker ps -a`
 
-List all containers
+List all containers (we can remove -a to list only runing containers)
 
 -----------------------
 
